@@ -18,6 +18,8 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'plasticboy/vim-markdown'
 Plug 'ycm-core/YouCompleteMe'
 Plug 'mattn/emmet-vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 colorscheme gruvbox
