@@ -29,6 +29,9 @@ call plug#end()
 colorscheme gruvbox
 set background=dark
 set number
+set tabstop=2
+set shiftwidth=2
+set expandtab
 let g:ycm_language_server = [
 \{
 \'name': 'scala',
