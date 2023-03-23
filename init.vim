@@ -24,6 +24,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'preservim/nerdcommenter'
 Plug 'jmcantrell/vim-virtualenv'
 Plug 'dense-analysis/ale'
+Plug 'tpope/vim-fugitive'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 colorscheme gruvbox
